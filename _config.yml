@@ -6,9 +6,9 @@ gems:
 # Site settings
 title: Grupo SeN
 subtitle: "#SE4Robotics"
-name: Sebastián Ormeño and Enzo Cerfogli
 email1: sebastian.ormeno@live.com
 email2: enzocerfogli2@hotmail.com
+name: Sebastián Ormeño and Enzo Cerfogli
 description: > 
   Better Sofrware for Better Robots. #SE4Robotics
 baseurl: "/testpage/" # the subpath of your site, e.g. /blog/
