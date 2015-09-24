@@ -23,10 +23,10 @@ Para corregir este error, se trator de abordar el problema de dos maneras.
 
 ###Segunda manera: Debugging
 
-Suponiendo que no se tiene conocimiento del error, si el simulador no se mueve puede deverse a que el robot no escucha o bien, teleop no envia las señales.
-Para chequear esto, se analizo por separado los nodos para  ver cual de estos tenian el problema.
-En el caso de teleop, primero se reviso el nodo con rosnode lo cual nos permitio encontrar el topico que publica, luego con rostopic usamos el comando echo para ver si el nodo teleop estaba publicando en el topico encontrado. Lo anterior si realizaba correctamente por lo cual el problema no estaba en teleop.
-Revisamos los nodos subcritos a teleop dado que este si estaba enviando mensajes, luego de revisar la la lista de topicos conectados a teleop notamos que no se encontraba el topico de gazebo ni con intermediarios, lo cual nos llevo a revisar con rosnode a gazebo para confirmar la suspechado, el cual solo estaba conectado con si mismo.
+>Suponiendo que no se tiene conocimiento del error, si el simulador no se mueve puede deverse a que el robot no escucha o bien, teleop no envia las señales.
+>Para chequear esto, se analizo por separado los nodos para  ver cual de estos tenian el problema.
+>En el caso de teleop, primero se reviso el nodo con rosnode lo cual nos permitio encontrar el topico que publica, luego con rostopic usamos el comando echo para ver si el nodo teleop estaba publicando en el topico encontrado. Lo anterior si realizaba correctamente por lo cual el problema no estaba en teleop.
+>Revisamos los nodos subcritos a teleop dado que este si estaba enviando mensajes, luego de revisar la la lista de topicos conectados a teleop notamos que no se encontraba el topico de gazebo ni con intermediarios, lo cual nos llevo a revisar con rosnode a gazebo para confirmar la suspechado, el cual solo estaba conectado con si mismo.
 
 Al termiar el analicis se puede afirmar cual es el error:
 No hay conecion entre gazebo y teleop
