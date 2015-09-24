@@ -17,6 +17,10 @@ Para corregir este error, se trator de abordar el problema de dos maneras.
 >Mediante el comando rqt_graph se realizo la comparacion entre los modelos y sin mayor problema se vio que en el modelo que falla, el nodo gazebo no estaba comunicado con teleop (cosa que si ocurre en el modelo que funciona).
 >Este metodo fue efectivo pues se tenia una version que funcionaba, pero esto no siempre es posible. Por esta razon se busco otra manera de encontrar que nos llevo al metodo dos.
 
+![Modelo que funciona]({{site.baseurl}}/assets/week-progress/funca.jpg)
+
+![Modelo que no funciona]({{site.baseurl}}/assets/week-progress/nofunca.jpg)
+
 ###Segunda manera: Debugging
 
 Suponiendo que no se tiene conocimiento del error, si el simulador no se mueve puede deverse a que el robot no escucha o bien, teleop no envia las señales.
