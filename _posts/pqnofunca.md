@@ -1,10 +1,11 @@
 ---
 layout: post
-title:  "Reporte: Por que no funciona."
-date:   2015-09-24 17:00:00
+title:  "Week #2"
+date:   2015-09-23 12:33:00
 author: Enzo y Sebastian
-categories: Reporte
+categories: progress
 ---
+
 ##Reporte: Por que no funciona.
 
 En esta actividad se quiere realizar un analisis sobre un bug presente al trabajar con gazibo, simulador de turtlebot de ros.
