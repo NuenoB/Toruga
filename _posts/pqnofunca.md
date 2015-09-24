@@ -5,6 +5,7 @@ date:   2015-09-24 17:00:00
 author: Enzo y Sebastian
 categories: Reporte
 ---
+#Reporte: Por que no funciona.
 
 En esta actividad se quiere realizar un analisis sobre un bugg presente al trabajar con gazibo, simulador de turtlebot de ros.
 El error consiste en que al realizar una modificacion en las variables de entorno para cambiar la version del turtlebot, existio un pŕoblema con teleop pues los comandos ingresados no generaban efecto en el simulador, es decir, el turtlebot no se movia.
@@ -26,9 +27,5 @@ Revisamos los nodos subcritos a teleop dado que este si estaba enviando mensajes
 Al termiar el analicis se puede afirmar cual es el error:
 No hay conecion entre gazebo y teleop
 Lo cual se puede arreglar implentando un nodo que sirva de intermediario entre ambos nodos que deberian usar las correctos tipos de los nodos.
-Esto se logro gracias a las herramientas de ros en particular:
-* rqt: que permite ver un grafo de la relaciones entre nodos.
-* rostopic: Se usa
-* rosnode:gkgdfgholi :B
-* roslist:
-Los cuales nos 
+Esto se logro gracias a las herramientas de ros en particular: rqt, rostopic, rosnode, roslist. Los cuales nos permitieron revisar si existia una conexion, ademnas de  ver el estado y lo que esta haciendo cada nodo.
+Fue dificil comprender las interaciones entre los nodo por el exeso de informacion que da cada comando, como critica que rqt_graph no entrega la informacion clara (Palabra sobrepuestas, sobre-representacion de nodos)
