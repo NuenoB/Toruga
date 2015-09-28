@@ -11,7 +11,7 @@ email2: enzocerfogli2@hotmail.com
 name: Sebastián Ormeño and Enzo Cerfogli
 description: > 
   Better Sofrware for Better Robots. #SE4Robotics
-baseurl: "/testpage/" # the subpath of your site, e.g. /blog/
+baseurl: "/Toruga/" # the subpath of your site, e.g. /blog/
 url: "http://NuenoB.github.io" # the base hostname & protocol for your site
 #cover: "assets/header_image.jpg"
 cover: "assets/pr2.jpg"
