@@ -14,3 +14,8 @@ La primera tarea que se realizo fue implementar un cliente-servidor que desde el
 Siguiendo con el trabajo se creo el action "BaileToruga" la cual tiene como parametros 2 ints para la posicion "x" e "y", un valor que hace referencia al angulo de giro y finalmente un string para indicar explicitamente algun otro procedimiento.
 Para realizar el baile practicamente se tomo el codigo del programa echo en python para el baile sin actionlib, y se modifico de manera que la posicion entregada por el goal sea el movimiento que se le indica al robot.
 De esta manera si uno le da las coordenas (x,y) el robot se movera del punto inicial donde esta a la posición (x,y) en coordenas de robot en linea recta girando primero hacia esa posicion.
+
+[Enlace del Video](CUANDO_EL_ROBOT_ESTE_VIVO)
+
+[Enlace repositorio GIthub](https://github.com/NuenoB/BailaTorugaActionlib)
+
