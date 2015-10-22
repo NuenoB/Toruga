@@ -9,11 +9,11 @@ categories: report
 
 ## Introducción:
 
--- Contexto
-
 ## Problema
 
 -- Descripción del problema
+
+A medida que aumenta la variedad de robots,
 
 -- Como es solucionado/sobrellevado el problema hoy?
 
