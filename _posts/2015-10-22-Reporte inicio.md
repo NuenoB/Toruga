@@ -5,7 +5,7 @@ date:   2015-10-22 18:00:00
 author: Enzo y Sebastian
 categories: report
 ---
-#Reporte de daños comandante
+#Reporte de daños almirante
 
 ## Introducción:
 
