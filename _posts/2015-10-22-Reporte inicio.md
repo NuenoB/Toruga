@@ -16,7 +16,21 @@ La idea de este proyecto es tomar cierto elemento que pertenece a Ros, ya sea un
 
 Al comenzar a trabajar con un robot, independiente del modelo que este sea, uno de los primeras actividades que se realizan es interactuar con el movimiento de este, ya sea el desplazamiento por un determinado sector, mover alguna de las componentes que lo conforman, etc. Para trabajar en este ambito existe el modulo Teleop, el cual es un modulo que permite trabajar con con el movimiento a distancia de un robot.
 
-Dentro de la experiencia personal que corresponde al grupo, se trabajo utilizando el modulo turtlebot_teleop, el cual permitia mover un robot del mismo modelo a medida que se apretaban determinadas teclas del teclado, podiendo modificar la velocidad en que este avanzaba (tambien se puede hacer funcionar mediante el uso de distintos mandos de consolas pero no se trabajo en este ambito),
+Dentro de la experiencia personal que corresponde al grupo, se trabajo utilizando el modulo turtlebot_teleop, el cual permitia mover un robot del mismo modelo a medida que se apretaban determinadas teclas del teclado, podiendo modificar la velocidad en que este avanzaba (tambien se puede hacer funcionar mediante el uso de distintos mandos de consolas pero no se trabajo en este ambito).
+
+Si bien el modulo cumple su objetivo y es relativamente facil de usar, existen ciertos elementos que no son del todo comodos al momento de su uso o bien se notaron posibles mejoras que de implementarlas facilitarian aun mas funcioanmiento y podrian hacer mas generico su funcionamiento. 
+
+Dentro de estos se pueden mencionar:
+
+--Las teclas vienen predefinidas y no es posible configurarlas dependiendo de como se quieren usar.
+
+--No es posible apretar mas de una tecla al mismo tiempo, esto es poco intuitivo (segun nuestra opinion) y seria mas comodo poder realizar combinaciones de teclas dependiendo de lo que se quiera realizar.
+
+--Una interfaz grafica podria facilitar el uso de la aplicacion, ya sea dando facilidad al momento de realizar las disntintas configuraciones de velocidad  o bien de como usar el modulo.
+
+--El hecho de que haya un teleop distinto para diferentes robots hace que sea poco generico, por lo que una aplicacion mas general podria ser mas comodo.
+
+
 -- Descripción del problema
 
 A medida que aumenta la variedad de robots,
