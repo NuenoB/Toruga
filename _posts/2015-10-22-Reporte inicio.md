@@ -10,10 +10,13 @@ categories: report
 ## Introducción:
 En este post se daran a conocer las especificaciones correspondientes al proyecto a realizar como contribucion a Ros por parte del grupo conformado por Sebastián Ormeño y Enzo Cerfogli, estudiantes de la carrera Ingerieria Civil en Computación de la Universidad de Chile.
 
-La idea de este proyecto es tomar cierto elemento que pertenece a Ros, ya sea un modulo existente o una nueva idea a implementar y llevarla a cabo de tal manera que mejore el uso y facilite al usuario.
+La idea de este proyecto es tomar cierto elemento que pertenece a Ros, ya sea un modulo existente o una nueva idea a implementar y llevarla a cabo de tal manera que mejore el uso a los usuarios, ya sea para los nuevos o para aquellos que ya son experimentados en este ambito.
 
 ## Problema
 
+Al comenzar a trabajar con un robot, independiente del modelo que este sea, uno de los primeras actividades que se realizan es interactuar con el movimiento de este, ya sea el desplazamiento por un determinado sector, mover alguna de las componentes que lo conforman, etc. Para trabajar en este ambito existe el modulo Teleop, el cual es un modulo que permite trabajar con con el movimiento a distancia de un robot.
+
+Dentro de la experiencia personal que corresponde al grupo, se trabajo utilizando el modulo turtlebot_teleop, el cual permitia mover un robot del mismo modelo a medida que se apretaban determinadas teclas del teclado, podiendo modificar la velocidad en que este avanzaba (tambien se puede hacer funcionar mediante el uso de distintos mandos de consolas pero no se trabajo en este ambito),
 -- Descripción del problema
 
 A medida que aumenta la variedad de robots,
