@@ -28,17 +28,15 @@ Dentro de estos se pueden mencionar:
 
 --Una interfaz grafica podria facilitar el uso de la aplicacion, ya sea dando facilidad al momento de realizar las disntintas configuraciones de velocidad  o bien de como usar el modulo.
 
---El hecho de que haya un teleop distinto para diferentes robots hace que sea poco generico, por lo que una aplicacion mas general podria ser mas comodo.
+--El hecho de que haya un teleop distinto para diferentes robots hace que sea poco generico, por lo que una aplicacion mas general podria ser mas comodo para un usuario que usa distintos prototipos o robot.
 
-
--- Descripción del problema
-
-A medida que aumenta la variedad de robots,
-
--- Como es solucionado/sobrellevado el problema hoy?
+Estos factores si bien no son fundamentales para el funcionamiento del modulo, pues bien la gente sigue usando teleop tal cual como se encuentra implementado, la solucion de los aspectos anteriores solo mejoraria la experiencia del usuario y por lo tanto podria hacer que el trabajo que se realize con el sea mas productivo.
 
 ## Solución
 
+Siguiendo con la idea explicada anteriormente, para brindar solucion a los problemas planteados se ha decidido implementar una propia version de teleop, con la particularidad de que esta sea independiente del robot que se quiera utilizar.
+
+La idea de este nuevo teleop es que el usuario pueda indenpendisarse del modelo que robot que se este usando, con esto utilizando ciertas caracteristicas que son comunes para todos los modelos (que se mueven basicamente), una interfaz de usuario simple y comoda y ciertas especificaciones del usuario, poder tener una aplicacion que permita el movimiento de distintos dispotivos y que sea comoda y facil de usar.  
 -- Qué requerimientos necesita la aplicación que solucione el problema
 
 -- Lista detallada de las funcionalidades que va a brindar su proyecto.
