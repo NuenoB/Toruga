@@ -61,20 +61,11 @@ Dentro de las funcionalidades que tendra esta nueva aplicacion, se encuentran lo
 
 --La ultima etapa corresponde a crear la interfaz de usuario que contega la funcionalidad de la aplicacion, esto se realizara mediante el uso del framework RQT (lo cual es lo recomendado por ros). Para esto sera necesario trabajar sobre una  interfaz grafica basada en QWidget como lo dice en la pagina de ros. La idea de esta interfaz de usuario es que le permita interacctuar al usuario de la manera mas simple e intuitiva posible. En esta el usuario podra seleccionar el modelo de robot sobre el cual quiere trabajar, poder determinar los mensajes a enviar, especificar el valor de los distintos parametretos que participaran en la accion (velocidad, distancia), ademas de poder tambien cambiar la configuracion a su conveniencia.
 
-
-
-  
--- Describir la solución (arquitectura, diseño, mockups, según corresponda)
-
--- Limitaciones su solución
-
--- Testing: Como probarán la solución?
-
--- Validación: Como validarán la solución?
-
--- Contactos de ROS con la que pretenden tener contacto para desarrollar/validar la solución
-
 ## Conclusión
 
-Esto es una _sugerencia_, no es una pauta, pero les puede servir si andan un poco perdidos en cuanto a qué esperamos del reporte de su proyecto.
+Si bien la aplicacion intentara llevarse a cabo desde cero, se vera el funcionamiento del teleop ya implementado (particurlarmente el del turtlebot y el del PR2) para tener una base sobre la cual partir a nivel de funcionamiento, al igual que examinar ejemplos de proyectos ya  implementados mediante RQT. Se espera que al finalizar la aplicacion se logre implementar todos los aspectos mencionados anteriormente, los avances seran reportados en distintas instancias a traves de post reportanto tambien los posibles errores y dificultades que puedan surgir.
+
+
+
+
 
