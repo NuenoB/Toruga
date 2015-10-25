@@ -36,10 +36,19 @@ Estos factores si bien no son fundamentales para el funcionamiento del modulo, p
 
 Siguiendo con la idea explicada anteriormente, para brindar solucion a los problemas planteados se ha decidido implementar una propia version de teleop, con la particularidad de que esta sea independiente del robot que se quiera utilizar.
 
-La idea de este nuevo teleop es que el usuario pueda indenpendisarse del modelo que robot que se este usando, con esto utilizando ciertas caracteristicas que son comunes para todos los modelos (que se mueven basicamente), una interfaz de usuario simple y comoda y ciertas especificaciones del usuario, poder tener una aplicacion que permita el movimiento de distintos dispotivos y que sea comoda y facil de usar.  
--- Qué requerimientos necesita la aplicación que solucione el problema
+La idea de este nuevo teleop es que el usuario pueda indenpendisarse del modelo que robot que se este usando, con esto utilizando ciertas caracteristicas que son comunes para todos los modelos (que se mueven basicamente), una interfaz de usuario simple y comoda y ciertas especificaciones del usuario, poder tener una aplicacion que permita el movimiento de distintos dispotivos ademas de ser comoda y facil de usar.
 
--- Lista detallada de las funcionalidades que va a brindar su proyecto.
+Dentro de las funcionalidades que tendra esta nueva aplicacion, se encuentran los siguientes aspectos:
+
+--Posibilidad de elegir el robot a utilizar
+
+--Poder seleccionar una lista de comandos distintos que permitan movimientos
+
+--Poder manejar de manera comoda los distintos parametros como velocidad de giro o de avance.
+
+--Configuracion de teclado y poder recibir mas de un comando de direccion simultaneamente.
+
+--Interfaz grafica que facilite los aspectos anteriores.
 
 ## Diseño de la solución
 
