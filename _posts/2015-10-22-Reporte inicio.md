@@ -59,7 +59,10 @@ Dentro de las funcionalidades que tendra esta nueva aplicacion, se encuentran lo
 
 --La segunda etapa correspondera a agregar el factor multiplataforma a la aplicacion, con esto se crearan un funcionamiento predeterminado ya sea para trabajar con modelos ya agregados a al aplicacion despues de un determinado uso, o bien, para comenzar a trabajar con un modelo nuevo. Si bien la idea es hacer la aplicacion lo mas independiente del modelo de robot que se quiera manejar, existen casos que diferentes tipos de mensajes no son recividos o las variables pueden cambiar de un caso a otro. De esta manera es necesaria una cierta participacion del usuario al momento de especificar los elementos con que se trabajara, y la idea es que estos no sea necesario especificarlo cada vez que se quiera trabajar.
 
---
+--La ultima etapa corresponde a crear la interfaz de usuario que contega la funcionalidad de la aplicacion, esto se realizara mediante el uso del framework RQT (lo cual es lo recomendado por ros). Para esto sera necesario trabajar sobre una  interfaz grafica basada en QWidget como lo dice en la pagina de ros. La idea de esta interfaz de usuario es que le permita interacctuar al usuario de la manera mas simple e intuitiva posible. En esta el usuario podra seleccionar el modelo de robot sobre el cual quiere trabajar, poder determinar los mensajes a enviar, especificar el valor de los distintos parametretos que participaran en la accion (velocidad, distancia), ademas de poder tambien cambiar la configuracion a su conveniencia.
+
+
+
   
 -- Describir la solución (arquitectura, diseño, mockups, según corresponda)
 
