@@ -8,17 +8,18 @@ categories: report
 #Proyecto de aporte a Ros : TheTeleop (nombre a definir) 
 
 ## Introducción:
-En este post se daran a conocer las especificaciones correspondientes al proyecto a realizar como contribucion a Ros por parte del grupo conformado por Sebastián Ormeño y Enzo Cerfogli, estudiantes de la carrera Ingerieria Civil en Computación de la Universidad de Chile.
 
-La idea de este proyecto es tomar cierto elemento que pertenece a Ros, ya sea un modulo existente o una nueva idea a implementar y llevarla a cabo de tal manera que mejore el uso a los usuarios, ya sea para los nuevos o para aquellos que ya son experimentados en este ambito.
+  En este post se daran a conocer las especificaciones correspondientes al proyecto a realizar como contribucion a Ros por parte del grupo conformado por Sebastián Ormeño y Enzo Cerfogli, estudiantes de la carrera Ingerieria Civil en Computación de la Universidad de Chile.
+
+  La idea de este proyecto es tomar cierto elemento que pertenece a Ros, ya sea un modulo existente o una nueva idea a implementar y llevarla a cabo de tal manera que mejore el uso a los usuarios, ya sea para los nuevos o para aquellos que ya son experimentados en este ambito.
 
 ## Problema
 
-Al comenzar a trabajar con un robot, independiente del modelo que este sea, uno de los primeras actividades que se realizan es interactuar con el movimiento de este, ya sea el desplazamiento por un determinado sector, mover alguna de las componentes que lo conforman, etc. Para trabajar en este ambito existe el modulo Teleop, el cual es un modulo que permite trabajar con con el movimiento a distancia de un robot.
+  Al comenzar a trabajar con un robot, independiente del modelo que este sea, uno de los primeras actividades que se realizan es interactuar con el movimiento de este, ya sea el desplazamiento por un determinado sector, mover alguna de las componentes que lo conforman, etc. Para trabajar en este ambito existe el modulo Teleop, el cual es un modulo que permite trabajar con con el movimiento a distancia de un robot.
 
-Dentro de la experiencia personal que corresponde al grupo, se trabajo utilizando el modulo turtlebot_teleop, el cual permitia mover un robot del mismo modelo a medida que se apretaban determinadas teclas del teclado, podiendo modificar la velocidad en que este avanzaba (tambien se puede hacer funcionar mediante el uso de distintos mandos de consolas pero no se trabajo en este ambito).
+  Dentro de la experiencia personal que corresponde al grupo, se trabajo utilizando el modulo turtlebot_teleop, el cual permitia mover un robot del mismo modelo a medida que se apretaban determinadas teclas del teclado, podiendo modificar la velocidad en que este avanzaba (tambien se puede hacer funcionar mediante el uso de distintos mandos de consolas pero no se trabajo en este ambito).
 
-Si bien el modulo cumple su objetivo y es relativamente facil de usar, existen ciertos elementos que no son del todo comodos al momento de su uso o bien se notaron posibles mejoras que de implementarlas facilitarian aun mas funcioanmiento y podrian hacer mas generico su funcionamiento. 
+  Si bien el modulo cumple su objetivo y es relativamente facil de usar, existen ciertos elementos que no son del todo comodos al momento de su uso o bien se notaron posibles mejoras que de implementarlas facilitarian aun mas funcioanmiento y podrian hacer mas generico su funcionamiento. 
 
 Dentro de estos se pueden mencionar:
 
@@ -30,13 +31,13 @@ Dentro de estos se pueden mencionar:
 
 --El hecho de que haya un teleop distinto para diferentes robots hace que sea poco generico, por lo que una aplicacion mas general podria ser mas comodo para un usuario que usa distintos prototipos o robot.
 
-Estos factores si bien no son fundamentales para el funcionamiento del modulo, pues bien la gente sigue usando teleop tal cual como se encuentra implementado, la solucion de los aspectos anteriores solo mejoraria la experiencia del usuario y por lo tanto podria hacer que el trabajo que se realize con el sea mas productivo.
+  Estos factores si bien no son fundamentales para el funcionamiento del modulo, pues bien la gente sigue usando teleop tal cual como se encuentra implementado, la solucion de los aspectos anteriores solo mejoraria la experiencia del usuario y por lo tanto podria hacer que el trabajo que se realize con el sea mas productivo.
 
 ## Solución
 
-Siguiendo con la idea explicada anteriormente, para brindar solucion a los problemas planteados se ha decidido implementar una propia version de teleop, con la particularidad de que esta sea independiente del robot que se quiera utilizar.
+  Siguiendo con la idea explicada anteriormente, para brindar solucion a los problemas planteados se ha decidido implementar una propia version de teleop, con la particularidad de que esta sea independiente del robot que se quiera utilizar.
 
-La idea de este nuevo teleop es que el usuario pueda indenpendisarse del modelo que robot que se este usando, con esto utilizando ciertas caracteristicas que son comunes para todos los modelos (que se mueven basicamente), una interfaz de usuario simple y comoda y ciertas especificaciones del usuario, poder tener una aplicacion que permita el movimiento de distintos dispotivos ademas de ser comoda y facil de usar.
+  La idea de este nuevo teleop es que el usuario pueda indenpendisarse del modelo que robot que se este usando, con esto utilizando ciertas caracteristicas que son comunes para todos los modelos (que se mueven basicamente), una interfaz de usuario simple y comoda y ciertas especificaciones del usuario, poder tener una aplicacion que permita el movimiento de distintos dispotivos ademas de ser comoda y facil de usar.
 
 Dentro de las funcionalidades que tendra esta nueva aplicacion, se encuentran los siguientes aspectos:
 
@@ -52,6 +53,12 @@ Dentro de las funcionalidades que tendra esta nueva aplicacion, se encuentran lo
 
 ## Diseño de la solución
 
+  Con respecto al diseño de la solucion, se tiene planeado proceder en 3 etapas en las que se abordaran distintos aspectos de de la extension a implementar
+
+--La primera etapa consiste en elaborar el core de la aplicación, con esto se refiere al funcionamiento interno de la aplicacion. Para esto se basara en el siguiente modelo de implementación, cada robot tendra una lista de posibles topicos (particulares o compartidos para cada robot) a los que pueden recibir un mensaje de determinado tipo con distintos argumentos. Con esta razon se va a crear una aplicacion/función en python que sea capas de mandar distintos mensajes a  topicos determinados, luego estas acciones deben ser guardadas de alguna manera (posiblemente en archivos, mediante formato jasons) y poder cargarlas cada vez que sea necesario. El echo de tener los mensajes en formato jason permite guardarlos de una manera estandar, ya sea para escribirlos o leerlos, por lo cual se espera que no sea un problema crear los comandos y que estos funcionen realmente en la aplicación.
+
+--
+  
 -- Describir la solución (arquitectura, diseño, mockups, según corresponda)
 
 -- Limitaciones su solución
