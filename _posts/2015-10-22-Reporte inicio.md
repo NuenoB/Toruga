@@ -63,7 +63,12 @@ Dentro de las funcionalidades que tendra esta nueva aplicacion, se encuentran lo
 
 ## Conclusión
 
-Si bien la aplicacion intentara llevarse a cabo desde cero, se vera el funcionamiento del teleop ya implementado (particurlarmente el del turtlebot y el del PR2) para tener una base sobre la cual partir a nivel de funcionamiento, al igual que examinar ejemplos de proyectos ya  implementados mediante RQT. Se espera que al finalizar la aplicacion se logre implementar todos los aspectos mencionados anteriormente, los avances seran reportados en distintas instancias a traves de post reportanto tambien los posibles errores y dificultades que puedan surgir.
+Si bien la aplicacion intentara llevarse a cabo desde cero, se vera el funcionamiento del teleop ya implementado (particurlarmente el del turtlebot y el del PR2) para tener una base sobre la cual partir a nivel de funcionamiento, al igual que examinar ejemplos de proyectos ya  implementados mediante RQT. Se espera que al finalizar la aplicacion se logre implementar todos los aspectos mencionados anteriormente, los avances seran reportados en distintas instancias a traves de post reportanto tambien los posibles errores y dificultades que puedan surgir. Cualquier duda o sugerencia hacia el proyecto sera bien recibida por los miembros del equipo  y se espera que al finalizar el proyecto, este se vuelva un aporte util al funcionamiento de ros.
+
+Contacto:
+
+##Enlaces relacionados:
+
 
 
 
