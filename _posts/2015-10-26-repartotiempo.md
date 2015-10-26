@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Distribucion de tiempo"
-date:   2015-10-22 18:00:00
+date:   2015-10-26 18:00:00
 author: Enzo y Sebastian
 categories: report
 ---
@@ -25,9 +25,9 @@ restores/store
 
 ###Segunda semana
 Continuacion con el core de la aplicacion:
-reconfiguracion
-"main"
-lookup
+*reconfiguracion
+*"main"
+*lookup
 
 ###Tercera semana
 Aseguracion de que la aplicacion sea completamente configurable 
