@@ -10,10 +10,9 @@ categories: report
 
 Se agrupo las semanas en 2 para cada hito
 los cuales son 3:
-Core
-configuracion
-GUI
-mas la face final (sacrificable) de buscar robots y crear preconfiguraciones 
+--Core
+--configuracion
+--GUI + mas la face final (sacrificable) de buscar robots y crear preconfiguraciones 
 
 ##Primera iteracion
 
