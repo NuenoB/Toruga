@@ -11,29 +11,31 @@ categories: report
 Se agrupo las semanas en 2 para cada hito
 los cuales son 3:
 
---Core
+* Core
 
---configuracion
+* configuracion
 
---GUI + mas la face final (sacrificable) de buscar robots y crear preconfiguraciones 
+* GUI + mas la face final (sacrificable) de buscar robots y crear preconfiguraciones 
 
 ##Primera iteración
 
 ###Primera semana
 Core de la aplicación
 "funciones" a trabajar:
-Send
-restores/store
+
+* Send
+
+* restores/store
 
 ###Segunda semana
 
 Continuación con el core de la aplicación:
 
-*reconfiguración
+* reconfiguración
 
-*"main"
+* "main"
 
-*lookup
+* lookup
 
 ###Tercera semana
 Comprobar que la aplicación sea completamente configurable 
@@ -44,8 +46,10 @@ Comprobar que la aplicación sea completamente configurable
 ###Primera semana
 
 Trabajo de crear una GUI para la aplicación:
-1-Exploración de RQT como GUI
-1-Creación básica de GUI (botones fijos)
+
+1. Exploración de RQT como GUI
+
+1. Creación básica de GUI (botones fijos)
 
 ###Segunda semana
 
