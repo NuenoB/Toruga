@@ -6,7 +6,7 @@ author: Enzo y Sebastian
 categories: report
 ---
 
-#Plan de distribucion de tiempo
+#Plan de distribución de tiempo
 
 Se agrupo las semanas en 2 para cada hito
 los cuales son 3:
@@ -17,35 +17,35 @@ los cuales son 3:
 
 --GUI + mas la face final (sacrificable) de buscar robots y crear preconfiguraciones 
 
-##Primera iteracion
+##Primera iteración
 
 ###Primera semana
-Core de la aplicacion
+Core de la aplicación
 "funciones" a trabajar:
 Send
 restores/store
 
 ###Segunda semana
-Continuacion con el core de la aplicacion:
-*reconfiguracion
+Continuación con el core de la aplicación:
+*reconfiguración
 *"main"
 *lookup
 
 ###Tercera semana
-Aseguracion de que la aplicacion sea completamente configurable 
+Comprobar que la aplicación sea completamente configurable 
 
 
-##Segunda Iteracion
+##Segunda Iteración
 
 ###Primera semana
 
-Trabajo de crear una GUI para la aplicaion:
-1-Exploracion de RQT como GUI
-1-Creacion basica de GUI (botones fijos)
+Trabajo de crear una GUI para la aplicación:
+1-Exploración de RQT como GUI
+1-Creación básica de GUI (botones fijos)
 
 ###Segunda semana
 
-GUI que incluya la funcion de configuracion 
+GUI que incluya la función de configuración 
 
 ###Tercera semana
 
