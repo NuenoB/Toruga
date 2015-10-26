@@ -26,9 +26,13 @@ Send
 restores/store
 
 ###Segunda semana
+
 Continuación con el core de la aplicación:
+
 *reconfiguración
+
 *"main"
+
 *lookup
 
 ###Tercera semana
