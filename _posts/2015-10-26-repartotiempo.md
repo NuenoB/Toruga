@@ -21,11 +21,17 @@ los cuales son 3:
 
 ###Primera semana
 Core de la aplicación
+
+* Estructuras de la configuracion
+
 "funciones" a trabajar:
 
 * Send
 
-* restores/store
+* restores
+
+* store
+
 
 ###Segunda semana
 
