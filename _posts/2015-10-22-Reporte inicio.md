@@ -69,9 +69,14 @@ Contacto : senrosgroup@gmail.com
 
 ##Enlaces relacionados:
 
+--[Enlace Repositorio](https://github.com/NuenoB/TheTeleop)
+
 --[ROS_TELEOP](http://wiki.ros.org/turtlebot_teleop)
 
---[TURTLEBOT_TELEOP](http://wiki.ros.org/pr2_teleop)
+--[PR2_TELEOP](http://wiki.ros.org/pr2_teleop)
+
+
+
 
 
 
