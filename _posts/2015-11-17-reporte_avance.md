@@ -72,10 +72,15 @@ agregar un comando:
 luego uno presiona la tecla “r” que pregunta  qué opción de reconfiguración se quiere seleccionar, para lo cual uno presiona la tecla “a”.
 
 Primero te pregunta que:
+
 1.- botón a asignar
+
 1.- tópico
+
 1.- mensaje (aun estamos trabajando para que sea más intuitivo su input)
+
 1.- rate
+
 1.- tipo del mensaje
 
 finalmente aparece en la terminal el diccionario modificado
