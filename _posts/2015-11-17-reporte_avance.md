@@ -87,7 +87,7 @@ Se pregunta por order:
 
 finalmente aparece en la terminal el diccionario modificado
 
-![dicmodificado]({{site.baseurl}}/assets/dicmodificado.jpg)
+![dicmodificado]({{site.baseurl}}/assets/dicmodificado.jpeg)
 
 Ahora usamos el comando precargado
 
