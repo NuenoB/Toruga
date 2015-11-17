@@ -58,7 +58,7 @@ Lo más importante encontrado dentro de este desarrollo fue:
 
 ###Ejemplo de uso:
 
-Primero se caga la aplicación:
+#####Primero se caga la aplicación:
 ![carga]({{site.baseurl}}/assets/carga.jpg)
 que muestra el diccionario disponible, 
 ![muestra de dicionario]({{site.baseurl}}/assets/dicionario.jpg)
@@ -66,12 +66,14 @@ luego le pide que inserte un botón dentro del diccionario, por ejemplo el botó
 ![muestra]({{site.baseurl}}/assets/muestra.jpg)
 
 da como resultado el mensaje enviado al tópico.
+![mensajeenviado]({{site.baseurl}}/assets/mensajeenviado.jpg)
 
-agregar un comando:
+####Agregar un comando:
+![acomando]({{site.baseurl}}/assets/acomando.jpg)
 
 luego uno presiona la tecla “r” que pregunta  qué opción de reconfiguración se quiere seleccionar, para lo cual uno presiona la tecla “a”.
 
-Primero te pregunta que:
+Se pregunta por order:
 
 1.- botón a asignar
 
@@ -85,9 +87,11 @@ Primero te pregunta que:
 
 finalmente aparece en la terminal el diccionario modificado
 
+![dicmodificado]({{site.baseurl}}/assets/dicmodificado.jpg)
 
 Ahora usamos el comando precargado
 
+![usocomando]({{site.baseurl}}/assets/usocomando.jpg)
 
 Al concluir esta iteración, se tiene un prototipo funcional básico de la aplicación que cumple con las especificaciones mencionadas anteriormente, si bien quedan elementos por implementar, como hacer que la aplicación sea más agradable para el usuario con respecto a su uso, se espera que al momento de implementar la interfaz gráfica se puedan solucionar estos factores.
 Con respecto a lo de implementar un teleop general, si se escriben los mensajes adecuados en distintas configuraciones ya se puede llevar a cabo este objetivos, se espera para la siguiente iteración tener precargado ciertas configuraciones básicas que permitan trabajar con el movimiento de distintos robots.
