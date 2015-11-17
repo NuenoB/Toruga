@@ -98,11 +98,11 @@ Con respecto a lo de implementar un teleop general, si se escriben los mensajes 
 
 Enlaces:
 
-[Repositorio:](https://github.com/NuenoB/TheTeleop)
+[Repositorio](https://github.com/NuenoB/TheTeleop)
 
-[Rostopic:](http://wiki.ros.org/rostopic)
+[Rostopic](http://wiki.ros.org/rostopic)
 
-[Rosbag:](http://wiki.ros.org/rosbag)
+[Rosbag](http://wiki.ros.org/rosbag)
 
 
 Contacto:
