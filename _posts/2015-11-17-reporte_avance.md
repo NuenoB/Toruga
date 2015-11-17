@@ -97,9 +97,13 @@ Al concluir esta iteración, se tiene un prototipo funcional básico de la aplic
 Con respecto a lo de implementar un teleop general, si se escriben los mensajes adecuados en distintas configuraciones ya se puede llevar a cabo este objetivos, se espera para la siguiente iteración tener precargado ciertas configuraciones básicas que permitan trabajar con el movimiento de distintos robots.
 
 Enlaces:
+
 [Repositorio:](https://github.com/NuenoB/TheTeleop)
+
 [Rostopic:](http://wiki.ros.org/rostopic)
+
 [Rosbag:](http://wiki.ros.org/rosbag)
+
 
 Contacto:
 rossengroup@gmail.com
