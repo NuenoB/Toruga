@@ -59,11 +59,11 @@ Lo más importante encontrado dentro de este desarrollo fue:
 ###Ejemplo de uso:
 
 Primero se caga la aplicación:
-![carga]({{site.baseurl}}/assets/week-progress/w7a.jpg)
+![carga]({{site.baseurl}}/assets/carga.jpg)
 que muestra el diccionario disponible, 
-![muestra de dicionario]({{site.baseurl}}/assets/week-progress/w7a.jpg)
+![muestra de dicionario]({{site.baseurl}}/assets/dicionario.jpg)
 luego le pide que inserte un botón dentro del diccionario, por ejemplo el botón 1
-![muestra]({{site.baseurl}}/assets/week-progress/w7a.jpg)
+![muestra]({{site.baseurl}}/assets/muestra.jpg)
 
 da como resultado el mensaje enviado al tópico.
 
