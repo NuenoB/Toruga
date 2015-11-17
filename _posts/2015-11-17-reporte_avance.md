@@ -9,8 +9,13 @@ categories: report
 Reporte primera iteracion:
 
 block npost 
+
 referencia al block anterior
+
 problema que aparecieron
+
 soluciones como solucionares
+
 lo que hace ahora
+
 Disello general de la apliacion
