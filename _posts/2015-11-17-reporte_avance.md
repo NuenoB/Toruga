@@ -50,8 +50,8 @@ Cambiar Comando: A un comando ya existente, el usuario puede elegir cambiar la t
 ###Dificultades:
 
 ####Creación de mensajes:
-Dado que nuestra aplicación tiene que crear mensajes dinámicamente dependiendo del input del usuario al contrario de lo que usualmente sucede. Para esto recurrimos a la aplicación ROSTOPIC pub, que actualmente envía mensajes recibidos desde el input de los usuarios.
-Lo más importante encontrado dentro de este desarrollo fue:
+Dado que nuestra aplicación tiene que crear mensajes dinámicamente dependiendo del input del usuario al contrario de lo que usualmente sucede. Para esto recurrimos a la aplicación `ROSTOPIC pub`, que actualmente envía mensajes recibidos desde el input de los usuarios.
+Las funciones esencial encontrado dentro de este desarrollo fue:
 
 1. Obtener una referencia de una clase desde un string se usa la función `msg_class = roslib.message.get_message_class(msg_type)` que retorna la referencia, luego se instancia la clase con `msg_class()`
 
