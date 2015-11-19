@@ -97,7 +97,7 @@ Ahora usamos el comando precargado
 ![usocomando]({{site.baseurl}}/assets/usocomando.jpg)
 
 Al concluir esta iteración, se tiene un prototipo funcional básico de la aplicación que cumple con las especificaciones mencionadas anteriormente, si bien quedan elementos por implementar, como hacer que la aplicación sea más agradable para el usuario con respecto a su uso, se espera que al momento de implementar la interfaz gráfica se puedan solucionar estos factores.
-Con respecto a lo de implementar un teleop general, si se escriben los mensajes adecuados en distintas configuraciones ya se puede llevar a cabo este objetivos, se espera para la siguiente iteración tener precargado ciertas configuraciones básicas que permitan trabajar con el movimiento de distintos robots.
+Con respecto a lo de implementar un teleop general, si se escriben los mensajes adecuados en distintas configuraciones ya se puede llevar a cabo este objetivos, se realizara para la siguiente iteración tener configuraciones precargado que permitan trabajar con el movimiento de distintos robots.
 
 Enlaces:
 
