@@ -39,7 +39,7 @@ Lo primero pide la aplicación es poder elegir entre distintas configuraciones d
 
 Luego que ya se tiene una cierta configuración el usuario puede ocupar cualquiera de los comandos establecidos o bien poder cambiar la configuración. Para poder realizar cambios existen tres opciones :
 
-Agregar Comando: elegir una tecla disponible (que no tenga otro comando asociado)   y asignarle un comando creado a partir de especificaciones del usuario. Para eso es necesario que se especifique mediante imput los distintos componentes faltantes que componen el comando (mensaje, tipo, tópico y rate).
+Agregar Comando: elegir una tecla disponible (que no tenga otro comando asociado) y asignarle un comando creado a partir de especificaciones del usuario. Para eso es necesario que se especifique mediante imput los distintos componentes faltantes que componen el comando (mensaje, tipo, tópico y rate).
 
 
 Eliminar Comando: Dado un botón ya existente en el diccionario se puede elegir para eliminarlo del diccionario.
@@ -53,11 +53,11 @@ Cambiar Comando: A un comando ya existente, el usuario puede elegir cambiar la t
 Dado que nuestra aplicación tiene que crear mensajes dinámicamente dependiendo del input del usuario al contrario de lo que usualmente sucede. Para esto recurrimos a la aplicación ROSTOPIC pub, que actualmente envía mensajes recibidos desde el input de los usuarios.
 Lo más importante encontrado dentro de este desarrollo fue:
 
-1.- Obtener una referencia de una clase desde un string se usa la función 'msg_class = roslib.message.get_message_class(msg_type)' que retorna la referencia, luego se instancia la clase con 'msg_class()'
+1. Obtener una referencia de una clase desde un string se usa la función `msg_class = roslib.message.get_message_class(msg_type)` que retorna la referencia, luego se instancia la clase con `msg_class()`
 
-1.- Para cargar los datos desde un string a la instancia 'genpy.message.fill_message_args(msgx, aux_args)' donde 'aux_args' es el string parseado
+1. Para cargar los datos desde un string a la instancia `genpy.message.fill_message_args(msgx, aux_args)` donde `aux_args` es el string parseado
 
-1.- Para parsear el string se usa yaml.load(line)
+1. Para parsear el string se usa `yaml.load(line)`
 
 ###Ejemplo de uso:
 
@@ -78,15 +78,15 @@ luego uno presiona la tecla “r” que pregunta  qué opción de reconfiguraci�
 
 Se pregunta por order:
 
-1.- botón a asignar
+1. botón a asignar
 
-1.- tópico
+1. tópico
 
-1.- mensaje (aun estamos trabajando para que sea más intuitivo su input)
+1. mensaje (aun estamos trabajando para que sea más intuitivo su input)
 
-1.- rate
+1. rate
 
-1.- tipo del mensaje
+1. tipo del mensaje
 
 finalmente aparece en la terminal el diccionario modificado
 
