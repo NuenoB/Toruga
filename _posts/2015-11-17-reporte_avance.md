@@ -10,7 +10,7 @@ categories: report
 En este informe se dará a conocer el avance realizado en la primera iteración 
 La idea del proyecto es implementar una aplicación que permite guardar una serie de comandos  y configuraciones para distintos modelos de robots que funcionen en ROS y poder ocuparlos como atajos, a partir de esta aplicación se desea poder implementar un Teleop general que sea independiente del robot, facilitando así la interacción entre el programador y el robot.
 
-Una reporte más preciso se encuentra en agregar link
+Una reporte más preciso se encuentra en [este link](http://nuenob.github.io/Toruga/report/2015/10/22/Reporte%20inicio.html)
 
 En esta iteración la idea fue implementar el núcleo de la aplicación, es decir que la aplicación tuviera capas para poder enviar y recibir una serie de comandos que provienen de una configuración previa que haya sido creada y configurada por el usuario. Para esta aplicación lo que se está considerando como comando es un botón el cual tiene asociado un mensaje de ROS con su determinado tipo y tópico. Este comando también tendrá asociado un valor determinado "rate" el cual permite configurar cuantas veces se quiere que se repita el mensaje.
 
