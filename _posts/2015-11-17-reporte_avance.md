@@ -20,9 +20,9 @@ En esta iteración la idea fue implementar el núcleo de la aplicación, es deci
 
 Como se quiere que la aplicación sea capaz de guardar una determinada configuración, para distintos tipos de robots, es necesario poder guardar los distintos comandos que se han creado y poder cargarlos cada vez que se inicia la aplicación o bien que el usuario desee cambiar de dispositivo.
 
-En un principio se tenía pensado usar JSON para poder guardar los mensajes que se van a  enviar, pero en el proceso de investigación de cómo implementar, se descubrió que estos no pueden guardar elementos serializables lo que impedía guardar un mensaje de manera directa. Mientras se buscaba cómo reemplazar esta implementación se encontró la clase RosBag la cual es utilizada por ROS para guardar los mensajes que se quieren enviar. De esta manera se decidió cambiar la opción de JSON por RosBag de esta manera se encontró una forma más fácil de guardar elementos y poder utilizarlos más adelante.
+En un principio se tenía pensado usar JSON para poder guardar los mensajes que se van a  enviar, pero en el proceso de investigación de cómo implementar, se descubrió que estos no pueden guardar elementos serializables lo que impedía guardar un mensaje de manera directa. Mientras se buscaba cómo reemplazar esta implementación se encontró la clase RosBag la cual es utilizada por ROS para guardar los mensajes que se quieren enviar. Se decidió cambiar la opción de JSON por RosBag ya que es una forma más fácil de guardar elementos y poder utilizarlos más adelante.
 
-Teniendo ya establecido como guardar los mensajes se crearon un par de funciones "writeBag" y "readBag" para poder cargar un diccionario que contiene una serie de mensajes guardados. Se utilizará un diccionario pues cumple la idea de que se tiene de asociar una determinada llave (botón) a un mensaje determinado.
+Teniendo ya establecido como guardar los mensajes se crearon un par de funciones 'writeBag' y 'readBag' para poder cargar un diccionario que contiene una serie de mensajes guardados. Se utilizará un diccionario pues cumple la idea de que se tiene de asociar una determinada llave (botón) a un mensaje determinado.
 
 
 ###Envío y Recepción de Mensajes:
@@ -52,8 +52,11 @@ Cambiar Comando: A un comando ya existente, el usuario puede elegir cambiar la t
 ####Creación de mensajes:
 Dado que nuestra aplicación tiene que crear mensajes dinámicamente dependiendo del input del usuario al contrario de lo que usualmente sucede. Para esto recurrimos a la aplicación ROSTOPIC pub, que actualmente envía mensajes recibidos desde el input de los usuarios.
 Lo más importante encontrado dentro de este desarrollo fue:
-1.- Obtener una referencia de una clase desde un string se usa la función msg_class = roslib.message.get_message_class(msg_type) que retorna la referencia, luego se instancia la clase con msg_class()
-1.- Para cargar los datos desde un string a la instancia genpy.message.fill_message_args(msgx, aux_args) donde aux_args es el string parseado
+
+1.- Obtener una referencia de una clase desde un string se usa la función 'msg_class = roslib.message.get_message_class(msg_type)' que retorna la referencia, luego se instancia la clase con 'msg_class()'
+
+1.- Para cargar los datos desde un string a la instancia 'genpy.message.fill_message_args(msgx, aux_args)' donde 'aux_args' es el string parseado
+
 1.- Para parsear el string se usa yaml.load(line)
 
 ###Ejemplo de uso:
